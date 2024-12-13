@@ -1,0 +1,343 @@
+{
+   "intents": [
+     {
+       "tag": "greeting",
+       "patterns": [
+         "Hi there",
+         "Hey, how’s it going",
+         "Hello!",
+         "Good morning",
+         "Good afternoon",
+         "How’s everything?",
+         "Hey What’s up",
+         "How’s your day been",
+         "Hey",
+         "Hi",
+         "Hello bot",
+         "hyy"
+       ],
+       "responses": [
+         "Hey there! How can I assist you today?",
+         "Hello! It's great to hear from you. What can I help you with?",
+         "Hi! How are you doing today? Need help with something?",
+         "Good to see you! How can I make your day better?"
+       ]
+     },
+     {
+       "tag": "goodbye",
+       "patterns": [
+         "Bye for now",
+         "See you later",
+         "Take care",
+         "Catch you later",
+         "See you soon",
+         "Goodbye, talk later",
+         "Bye"
+       ],
+       "responses": [
+         "Goodbye! Hope to talk to you again soon.",
+         "Take care! Come back anytime.",
+         "It was nice chatting! Talk to you soon!",
+         "Catch you later! Stay awesome!",
+         "Until next time, goodbye!"
+       ]
+     },
+     {
+       "tag": "thanks",
+       "patterns": [
+         "Thanks",
+         "Thank you",
+         "Much appreciated",
+         "Tnx",
+         "tq"
+       ],
+       "responses": [
+         "You're welcome!",
+         "Happy to help!"
+       ]
+     },
+     {
+       "tag": "jokes",
+       "patterns": [
+         "Tell me a joke",
+         "Make me laugh",
+         "Say something funny",
+         "Joke"
+       ],
+       "responses": [
+         "Why don't scientists trust atoms? Because they make up everything!",
+         "Why do cows wear bells? Because their horns don’t work!",
+         "What do you get when you cross a murderer and frosted flakes? A cereal killer.",
+         "What do you get when you cross a country and an automobile? Carnation."
+       ]
+     },
+     {
+       "tag": "about_bot",
+       "patterns": [
+         "Who are you",
+         "What are you",
+         "Tell me about yourself",
+         "what is your name"
+       ],
+       "responses": [
+         "I'm a chatbot here to make your day better!",
+         "I'm your virtual assistant."
+       ]
+     },
+     {
+       "tag": "weather",
+       "patterns": [
+         "What's the weather like",
+         "Is it sunny",
+         "Will it rain"
+       ],
+       "responses": [
+         "I can't check the weather, but I hope it's nice where you are!"
+       ]
+     },
+     {
+       "tag": "feeling",
+       "patterns": [
+         "How are you",
+         "Are you okay",
+         "How's it going"
+       ],
+       "responses": [
+         "I'm doing great! Thanks for asking.",
+         "All systems are good! How about you?"
+       ]
+     },
+     {
+       "tag": "hobbies",
+       "patterns": [
+         "What do you do for fun",
+         "Do you have hobbies",
+         "What do you enjoy"
+       ],
+       "responses": [
+         "I enjoy chatting with you!",
+         "Exploring knowledge is my favorite!"
+       ]
+     },
+     {
+       "tag": "motivation",
+       "patterns": [
+         "I need motivation",
+         "Can you inspire me",
+         "Cheer me up",
+         "I feel down",
+         "Give me some words of encouragement"
+       ],
+       "responses": [
+         "Believe in yourself! You have the power to achieve anything.",
+         "You’re stronger than you think. Keep going!",
+         "Every small step is progress. Stay focused and keep pushing!",
+         "Success is the sum of small efforts. Don’t give up!",
+         "You’re on the right path! Keep going, you got this!"
+       ]
+     },
+     {
+       "tag": "food",
+       "patterns": [
+         "What’s your favorite food",
+         "Do you eat",
+         "Can you cook",
+         "Can you recommend a dish"
+       ],
+       "responses": [
+         "I don't eat, but I’ve heard pizza is amazing! What’s your favorite food?",
+         "How about trying pasta? It’s a classic, and you can make it so many ways!",
+         "I can recommend some great recipes! What type of food are you in the mood for?",
+         "You should try a delicious dessert like chocolate lava cake. Have you had it before?",
+         "I consume RAM, and binary digits."
+       ]
+     },
+     {
+       "tag": "sports",
+       "patterns": [
+         "Tell me about sports",
+         "What are the best sports to play",
+         "How do I get better at sports",
+         "Can you recommend a sport for me",
+         "Which sport is popular worldwide",
+         "Tell me about famous sports",
+         "Cricket"
+       ],
+       "responses": [
+         "Sports like cricket, football, and basketball are really popular worldwide! Do you follow any of them?",
+         "How about trying tennis or badminton? They’re fun and great for fitness!",
+         "If you enjoy teamwork, football and basketball are great choices. What sport interests you the most?",
+         "Sports are great for both fitness and fun. Do you want to know about specific sports like cricket or football?",
+         "Cricket and football have large fan bases globally. What sport would you like to know more about?"
+       ]
+     },
+     {
+       "tag": "games",
+       "patterns": [
+         "Do you play games",
+         "What's your favorite game",
+         "Recommend a video game",
+         "Video Games"
+       ],
+       "responses": [
+         "I hear open-world games are fun! Have you tried any?",
+         "Gaming is amazing—what's your favorite?"
+       ]
+     },
+     {
+       "tag": "music",
+       "patterns": [
+         "Do you like music",
+         "What's your favorite song",
+         "Recommend a song"
+       ],
+       "responses": [
+         "Music is awesome! I don't have a favorite, but I’d love to know yours.",
+         "Songs are the best mood lifters. What genre do you like?"
+       ]
+     },
+     {
+       "tag": "study",
+       "patterns": [
+         "How can I study better",
+         "Tips for studying",
+         "Help with concentration"
+       ],
+       "responses": [
+         "Break your study sessions into chunks and take regular breaks.",
+         "Focus on one topic at a time and minimize distractions."
+       ]
+     },
+     {
+       "tag": "fitness",
+       "patterns": [
+         "Tips for fitness",
+         "How to stay healthy",
+         "Fitness routine"
+       ],
+       "responses": [
+         "Exercise regularly and eat a balanced diet.",
+         "Staying active and hydrated goes a long way!"
+       ]
+     },
+     {
+       "tag": "news",
+       "patterns": [
+         "What's new",
+         "Any updates",
+         "Latest news"
+       ],
+       "responses": [
+         "I’m not connected to live news, but I can chat about general topics!"
+       ]
+     },
+     {
+       "tag": "time",
+       "patterns": [
+         "What's the time",
+         "Can you tell the time",
+         "What time is it"
+       ],
+       "responses": [
+         "I can't tell the exact time, but it's always a good time to chat!"
+       ]
+     },
+     {
+       "tag": "fun_facts",
+       "patterns": [
+         "Tell me a fact",
+         "Fun fact",
+         "Do you know something interesting"
+       ],
+       "responses": [
+         "Did you know honey never spoils? Archaeologists found pots of honey in ancient tombs!",
+         "The Eiffel Tower can grow taller in summer due to heat expansion!"
+       ]
+     },
+     {
+       "tag": "pets",
+       "patterns": [
+         "Do you like pets",
+         "What's your favorite animal",
+         "Tell me about pets"
+       ],
+       "responses": [
+         "Pets are wonderful! Dogs and cats are so popular.",
+         "Animals are amazing companions. Do you have any pets?"
+       ]
+     },
+     {
+       "tag": "relationships",
+       "patterns": [
+         "How to make friends",
+         "Tips for relationships",
+         "Help with friendships"
+       ],
+       "responses": [
+         "Be kind, listen actively, and show genuine interest in others.",
+         "Relationships thrive on trust and communication."
+       ]
+     },
+     {
+       "tag": "technology",
+       "patterns": [
+         "What's the latest in tech",
+         "Do you know about AI",
+         "Tell me about technology"
+       ],
+       "responses": [
+         "Technology is advancing rapidly! AI is transforming industries.",
+         "Tech makes life easier, don’t you think?"
+       ]
+     },
+     {
+       "tag": "random",
+       "patterns": [
+         "Say something",
+         "Talk to me",
+         "Anything interesting"
+       ],
+       "responses": [
+         "Sure! Did you know octopuses have three hearts?",
+         "Random fact: Bananas are berries, but strawberries aren’t!"
+       ]
+     },
+     {
+       "tag": "dreams",
+       "patterns": [
+         "What do dreams mean",
+         "Tell me about dreams",
+         "Do dreams have meaning"
+       ],
+       "responses": [
+         "Dreams are fascinating! Some say they reflect your subconscious.",
+         "People interpret dreams in different ways. What did you dream about?"
+       ]
+     },
+     {
+       "tag": "life",
+       "patterns": [
+         "What's the meaning of life",
+         "What is life",
+         "Tell me about life"
+       ],
+       "responses": [
+         "Life is what you make of it. Enjoy the little moments!",
+         "Life is a journey, not a destination. Make the most of it!"
+       ]
+     },
+     {
+       "tag": "stress",
+       "patterns": [
+         "I'm feeling stressed",
+         "How to reduce stress",
+         "Tips for relaxation"
+       ],
+       "responses": [
+         "Take deep breaths and take a break. Relaxation is key.",
+         "Exercise and meditation can help relieve stress."
+       ]
+     }
+   ]
+ }
+ 
