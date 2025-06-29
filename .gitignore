@@ -1,5 +1,4 @@
 .venv
 .git
 __pycache__
-intents.json
-user_data.json
+training_data.json
